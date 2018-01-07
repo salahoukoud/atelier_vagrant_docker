@@ -4,3 +4,6 @@
 [submodule "vagrant-extension"]
 	path = vagrant-extension
 	url = https://github.com/AlbanMontaigu/boot2docker-vagrant-extension.git
+[submodule "docker-toolbox-extension"]
+	path = docker-toolbox-extension
+	url = https://github.com/AlbanMontaigu/docker-toolbox-extension.git
