@@ -10,7 +10,7 @@
 B2D_BOX="AlbanMontaigu/boot2docker"
 
 # Choose your box version, related to docker's version
-B2D_VERSION="17.09.0-ce"
+B2D_VERSION="17.12.0-ce"
 
 #  B2D VM customization
 B2D_CPU="2"
@@ -88,7 +88,7 @@ Vagrant.configure("2") do |config|
   # 2nd part (additional docker images backup)
   # Put here 1 line by image you want to add like the sample below (docker-toolbox is already included)
   #
-  #config.vm.provision "shell", path: "#{B2D_EXTENSION_REPO_RAWV}/param-ibackup.sh", :args => [ '.*alpine_3.6.*' ]
+  #config.vm.provision "shell", path: "#{B2D_EXTENSION_REPO_RAWV}/param-ibackup.sh", :args => [ '.*alpine_3.7.*' ]
   
   #
   # last part (finish provisioning and run bootlocal)
