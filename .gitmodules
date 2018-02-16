@@ -7,3 +7,7 @@
 [submodule "docker-toolbox-extension"]
 	path = docker-toolbox-extension
 	url = https://github.com/AlbanMontaigu/docker-toolbox-extension.git
+[submodule "docker-ci-tool-stack"]
+	path = docker-ci-tool-stack
+	url = https://github.com/marcelbirkner/docker-ci-tool-stack.git
+	branch = master
